@@ -1,0 +1,9 @@
+Open terminal:
+sudo subl /etc/modules-load.d/netfilter.conf then enter
+
+###############
+nf_nat_pptp
+nf_conntrack_pptp
+nfconntrack_proto_gre
+###############
+save and reboot
